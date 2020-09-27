@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 /* public */
+body{
+  cursor: none;
+}
+
 .td02{
   transition-delay: 0.2s;
 }
@@ -660,6 +664,7 @@ body.hidden {
 /* footer */
 footer{
   text-align: center;
+  padding: 20px 0;
 }
 
 /* stalker */
