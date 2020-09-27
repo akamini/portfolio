@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    
+  <div id="back-to-top"></div>
+
+  <header>
+    <div class="inner flex">
+      <h1>
+        <a href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
+      </h1>
+
+      <nav class="header-nav">
+        <ul class="flex">
+          <li><a href="#">TOP</a></li>
+					<li><a href="#profile">PROFILE</a></li>
+					<li><a href="#skills">SKILLS</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+			</nav>
+		</div>				
+
+    <div id="hamburger">
+      <span></span>
+			<span></span>
+			<span></span>
+    </div>
+  </header>
+
+  <div class="catch">
+		<div class="mv" id="slideshow">
+			<img src="img/mv01.jpg" alt="mv01">
+			<img src="img/mv02.jpg" alt="mv02">
+      <img src="img/mv03.jpg" alt="mv03">
+      <img src="img/mv04.jpg" alt="mv04">
+    </div>
+
+    <div class="copy parallax">
+      <p class="main-copy wipe">Akamini's<br>Portfolio</p>
+      <p class="sub-copy wipe td02">Road to Web engineer</p>
+    </div>
+
+    <a href="#profile" class="btn catch__btn">about me</a>
+  </div>
+
+  <section id="profile">
+    <h2>PROFILE</h2>
+    <div class="profile-inner flex profile__flex">
+      <div class="profile-img">
+        <img src="img/profile.jpg" alt="profile">
+      </div>
+      <div class="profile-txt">
+        <p>名前：赤津優介</p>
+        <p>出身：埼玉県さいたま市</p>
+        <p>学歴：中央大学理工学部</p>
+        <p>趣味：スノーボード、釣り</p>
+        <p>好きなもの：アイアンマン</p>
+        <a href="#dream" class="btn profile__btn"><span>夢</span><span>Dream</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="slide-trigger">
+    <h2>SKILLS</h2>
+    <div class="skill">
+      <div class="skill-list slide slideBottom">
+        <div class="skills01">
+          <p><i class="fab fa-html5"></i>HTML</p>
+        </div>
+        <div class="skills02">
+          <p><i class="fab fa-css3-alt"></i>CSS</p>
+        </div>
+        <div class="skills03">
+          <p><i class="fab fa-js"></i>Javascript</p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section id="works" class="slide-trigger">
+    <h2>WORKS</h2>
+    <div class="works-list flex works__flex slide slideBottom">
+      <img src="http://placehold.jp/150x150.png">
+      <img src="http://placehold.jp/150x150.png">
+      <img src="http://placehold.jp/150x150.png">
+      <img src="http://placehold.jp/150x150.png">
+      <img src="http://placehold.jp/150x150.png">
+      <img src="http://placehold.jp/150x150.png">
+    </div>
+	</section>
+	
+  <section id="contact" class="slide-trigger">
+    <h2>CONTACT</h2>
+    <div class="contact-list flex slide slideBottom">
+      <a href="https://twitter.com/zero22_etyp_ya?ref_src=twsrc%5Etfw">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/akamini">
+        <i class="fab fa-git"></i>
+      </a>
+      <a href="mailto:job.receiver0228@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="dream">
+    <h2 class="rainbow">DREAM</h2>
+    <div id="carousel">
+
+      <div id="prev" class="carousel-btn"></div>
+      <div id="next" class="carousel-btn"></div>
+
+      <ul id="carousel-body">
+        <li class="item">
+          <img src="img/img01.jpg" alt="">
+          <div class="carousel-txt">
+            <p>フクロウを育てる</p>
+          </div>
+        </li>
+        <li class="item">
+          <img src="img/img02.jpg" alt="">
+          <div class="carousel-txt">
+            <p>バイクで日本一周</p>
+          </div>
+        </li>
+        <li class="item">
+          <img src="img/img03.jpg" alt="">
+          <div class="carousel-txt">
+            <p>最高のエンジニアになる</p>
+          </div>
+        </li>
+        <li class="item">
+          <img src="img/img04.jpg" alt="">
+          <div class="carousel-txt">
+            <p>アイアンマンになり空を飛ぶ</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+    
+  <footer>
+    <small>© 2020 akamini portfolio<br></small>
+    <hr>
+    <small>pixabyより画像参照</small>
+  </footer>
+
+  <div id="stalker"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
